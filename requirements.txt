@@ -1,0 +1,11 @@
+
+accelerate>=0.34
+datasets>=2.21
+numpy>=1.26
+openpyxl>=3.1
+pandas>=2.2
+scikit-learn>=1.5
+sklearn-crfsuite>=0.3.6
+torch>=2.2
+transformers>=4.44
+tqdm>=4.66
