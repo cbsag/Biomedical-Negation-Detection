@@ -1,0 +1,13 @@
+{
+  "script": "train_crf.py",
+  "args": {
+    "dataset": "all",
+    "data-dir": "data/raw",
+    "output-dir": "artifacts/crf",
+    "seed": 13,
+    "c1": 0.1,
+    "c2": 0.1,
+    "max-iterations": 100
+  }
+}
+

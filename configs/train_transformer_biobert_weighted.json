@@ -1,0 +1,15 @@
+{
+  "script": "train_transformer.py",
+  "args": {
+    "dataset": "all",
+    "data-dir": "data/raw",
+    "output-dir": "artifacts/transformer/biobert_weighted",
+    "model-name": "dmis-lab/biobert-base-cased-v1.1",
+    "seed": 13,
+    "max-length": 128,
+    "epochs": 5,
+    "batch-size": 8,
+    "learning-rate": 5e-05,
+    "use-class-weights": true
+  }
+}

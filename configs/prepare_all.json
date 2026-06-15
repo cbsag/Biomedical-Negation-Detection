@@ -1,0 +1,12 @@
+{
+  "script": "prepare_data.py",
+  "args": {
+    "dataset": "all",
+    "data-dir": "data/raw",
+    "output-dir": "data/processed",
+    "train-ratio": 0.7,
+    "dev-ratio": 0.15,
+    "seed": 13
+  }
+}
+

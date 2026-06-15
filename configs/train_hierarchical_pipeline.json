@@ -1,0 +1,13 @@
+{
+  "script": "train_hierarchical.py",
+  "args": {
+    "dataset": "all",
+    "data-dir": "data/raw",
+    "output-dir": "artifacts/hierarchical",
+    "seed": 13,
+    "min-df": 2,
+    "max-features": 20000,
+    "max-iter": 1000
+  }
+}
+
